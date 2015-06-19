@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B133580F1B34570F0034F8AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B133580E1B34570F0034F8AC /* AppDelegate.swift */; };
+		B13358111B34570F0034F8AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13358101B34570F0034F8AC /* ViewController.swift */; };
+		B13358141B34570F0034F8AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B13358121B34570F0034F8AC /* Main.storyboard */; };
+		B13358161B34570F0034F8AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B13358151B34570F0034F8AC /* Images.xcassets */; };
+		B13358191B34570F0034F8AC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B13358171B34570F0034F8AC /* LaunchScreen.xib */; };
+		B13358251B34570F0034F8AC /* memoPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13358241B34570F0034F8AC /* memoPadTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B133581F1B34570F0034F8AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B13358011B34570F0034F8AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B13358081B34570F0034F8AC;
+			remoteInfo = memoPad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B13358091B34570F0034F8AC /* memoPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = memoPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B133580D1B34570F0034F8AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B133580E1B34570F0034F8AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B13358101B34570F0034F8AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B13358131B34570F0034F8AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B13358151B34570F0034F8AC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B13358181B34570F0034F8AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B133581E1B34570F0034F8AC /* memoPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = memoPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B13358231B34570F0034F8AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B13358241B34570F0034F8AC /* memoPadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memoPadTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B13358061B34570F0034F8AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B133581B1B34570F0034F8AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B13358001B34570F0034F8AC = {
+			isa = PBXGroup;
+			children = (
+				B133580B1B34570F0034F8AC /* memoPad */,
+				B13358211B34570F0034F8AC /* memoPadTests */,
+				B133580A1B34570F0034F8AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B133580A1B34570F0034F8AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B13358091B34570F0034F8AC /* memoPad.app */,
+				B133581E1B34570F0034F8AC /* memoPadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B133580B1B34570F0034F8AC /* memoPad */ = {
+			isa = PBXGroup;
+			children = (
+				B133580E1B34570F0034F8AC /* AppDelegate.swift */,
+				B13358101B34570F0034F8AC /* ViewController.swift */,
+				B13358121B34570F0034F8AC /* Main.storyboard */,
+				B13358151B34570F0034F8AC /* Images.xcassets */,
+				B13358171B34570F0034F8AC /* LaunchScreen.xib */,
+				B133580C1B34570F0034F8AC /* Supporting Files */,
+			);
+			path = memoPad;
+			sourceTree = "<group>";
+		};
+		B133580C1B34570F0034F8AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B133580D1B34570F0034F8AC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B13358211B34570F0034F8AC /* memoPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				B13358241B34570F0034F8AC /* memoPadTests.swift */,
+				B13358221B34570F0034F8AC /* Supporting Files */,
+			);
+			path = memoPadTests;
+			sourceTree = "<group>";
+		};
+		B13358221B34570F0034F8AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B13358231B34570F0034F8AC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B13358081B34570F0034F8AC /* memoPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B13358281B34570F0034F8AC /* Build configuration list for PBXNativeTarget "memoPad" */;
+			buildPhases = (
+				B13358051B34570F0034F8AC /* Sources */,
+				B13358061B34570F0034F8AC /* Frameworks */,
+				B13358071B34570F0034F8AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = memoPad;
+			productName = memoPad;
+			productReference = B13358091B34570F0034F8AC /* memoPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B133581D1B34570F0034F8AC /* memoPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B133582B1B34570F0034F8AC /* Build configuration list for PBXNativeTarget "memoPadTests" */;
+			buildPhases = (
+				B133581A1B34570F0034F8AC /* Sources */,
+				B133581B1B34570F0034F8AC /* Frameworks */,
+				B133581C1B34570F0034F8AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B13358201B34570F0034F8AC /* PBXTargetDependency */,
+			);
+			name = memoPadTests;
+			productName = memoPadTests;
+			productReference = B133581E1B34570F0034F8AC /* memoPadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B13358011B34570F0034F8AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = kumaocky;
+				TargetAttributes = {
+					B13358081B34570F0034F8AC = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					B133581D1B34570F0034F8AC = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = B13358081B34570F0034F8AC;
+					};
+				};
+			};
+			buildConfigurationList = B13358041B34570F0034F8AC /* Build configuration list for PBXProject "memoPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B13358001B34570F0034F8AC;
+			productRefGroup = B133580A1B34570F0034F8AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B13358081B34570F0034F8AC /* memoPad */,
+				B133581D1B34570F0034F8AC /* memoPadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B13358071B34570F0034F8AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B13358141B34570F0034F8AC /* Main.storyboard in Resources */,
+				B13358191B34570F0034F8AC /* LaunchScreen.xib in Resources */,
+				B13358161B34570F0034F8AC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B133581C1B34570F0034F8AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B13358051B34570F0034F8AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B13358111B34570F0034F8AC /* ViewController.swift in Sources */,
+				B133580F1B34570F0034F8AC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B133581A1B34570F0034F8AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B13358251B34570F0034F8AC /* memoPadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B13358201B34570F0034F8AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B13358081B34570F0034F8AC /* memoPad */;
+			targetProxy = B133581F1B34570F0034F8AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B13358121B34570F0034F8AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B13358131B34570F0034F8AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B13358171B34570F0034F8AC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B13358181B34570F0034F8AC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B13358261B34570F0034F8AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B13358271B34570F0034F8AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B13358291B34570F0034F8AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = memoPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B133582A1B34570F0034F8AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = memoPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B133582C1B34570F0034F8AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = memoPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/memoPad.app/memoPad";
+			};
+			name = Debug;
+		};
+		B133582D1B34570F0034F8AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = memoPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/memoPad.app/memoPad";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B13358041B34570F0034F8AC /* Build configuration list for PBXProject "memoPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B13358261B34570F0034F8AC /* Debug */,
+				B13358271B34570F0034F8AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B13358281B34570F0034F8AC /* Build configuration list for PBXNativeTarget "memoPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B13358291B34570F0034F8AC /* Debug */,
+				B133582A1B34570F0034F8AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B133582B1B34570F0034F8AC /* Build configuration list for PBXNativeTarget "memoPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B133582C1B34570F0034F8AC /* Debug */,
+				B133582D1B34570F0034F8AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B13358011B34570F0034F8AC /* Project object */;
+}
