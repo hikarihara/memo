@@ -13,6 +13,7 @@
 		B13358161B34570F0034F8AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B13358151B34570F0034F8AC /* Images.xcassets */; };
 		B13358191B34570F0034F8AC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B13358171B34570F0034F8AC /* LaunchScreen.xib */; };
 		B13358251B34570F0034F8AC /* memoPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13358241B34570F0034F8AC /* memoPadTests.swift */; };
+		B133582F1B3457D10034F8AC /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B133582E1B3457D10034F8AC /* MemoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		B133581E1B34570F0034F8AC /* memoPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = memoPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B13358231B34570F0034F8AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B13358241B34570F0034F8AC /* memoPadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memoPadTests.swift; sourceTree = "<group>"; };
+		B133582E1B3457D10034F8AC /* MemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				B133580E1B34570F0034F8AC /* AppDelegate.swift */,
 				B13358101B34570F0034F8AC /* ViewController.swift */,
+				B133582E1B3457D10034F8AC /* MemoViewController.swift */,
 				B13358121B34570F0034F8AC /* Main.storyboard */,
 				B13358151B34570F0034F8AC /* Images.xcassets */,
 				B13358171B34570F0034F8AC /* LaunchScreen.xib */,
@@ -214,6 +217,7 @@
 			files = (
 				B13358111B34570F0034F8AC /* ViewController.swift in Sources */,
 				B133580F1B34570F0034F8AC /* AppDelegate.swift in Sources */,
+				B133582F1B3457D10034F8AC /* MemoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +415,7 @@
 				B133582A1B34570F0034F8AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B133582B1B34570F0034F8AC /* Build configuration list for PBXNativeTarget "memoPadTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				B133582D1B34570F0034F8AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
